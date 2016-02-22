@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Mad_Libs</string>
+    <string name="circus_story_text">"Get this, ladies and "</string>
+    <string name="simple_story_text">"I wannabe a "</string>
+    <string name="tarzan_story_text">"One of the most "</string>
+    <string name="madlib_text_main">Fill in the words to complete your Mad Lib story!</string>
+    <string name="madlib_text_circus">Fill in the words to complete your Mad Lib story!</string>
+    <string name="madlib_text_simple">Fill in the words to complete your Mad Lib story!</string>
+    <string name="madlib_text_tarzan">Fill in the words to complete your Mad Lib story!</string>
+</resources>

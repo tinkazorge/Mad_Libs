@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.tinkazorge.mad_libs.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/madlib_text_main"
+        android:id="@+id/textview_madlib"
+        android:elegantTextHeight="false"
+        android:textColor="#FF1493"
+        android:textSize="20dp"
+        android:layout_above="@+id/circus_button"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/mad_libs_image"
+        android:src="@drawable/madlibs"
+        android:layout_marginLeft="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_above="@+id/textview_madlib"
+        android:layout_alignLeft="@+id/textview_madlib"
+        android:layout_alignStart="@+id/textview_madlib"
+        android:layout_marginBottom="40dp" />
+
+    <Button
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:text="Circus"
+        android:id="@+id/circus_button"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/mad_libs_image"
+        android:layout_alignStart="@+id/mad_libs_image" />
+
+    <Button
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:text="Simple"
+        android:id="@+id/simple_button"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/tarzan_button"
+        android:layout_toStartOf="@+id/tarzan_button" />
+
+    <Button
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:text="Tarzan"
+        android:id="@+id/tarzan_button"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/mad_libs_image"
+        android:layout_alignEnd="@+id/mad_libs_image" />
+
+</RelativeLayout>
